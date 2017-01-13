@@ -1,0 +1,23 @@
+<div class="user-info">
+  <h2 class="text-center"> Name: {{ selectedUser.name }} </h2>
+  <div class="col-xs-12 col-md-6 col-lg-4 user-info-group">
+    <h4> <i class="fa fa-user" aria-hidden="true"></i> Username: {{ selectedUser.username }} </h4>
+    <h4> <i class="fa fa-envelope" aria-hidden="true"></i> Email: {{selectedUser.email }} </h4>
+    <h4> <i class="fa fa-phone" aria-hidden="true"></i> Phone: {{ selectedUser.phone }} </h4>
+    <h4> <i class="fa fa-internet-explorer" aria-hidden="true"></i> Website: {{ selectedUser.website }} </h4>
+  </div>
+
+  <div class="col-xs-12 col-md-6 col-lg-4 user-info-group">
+    <h4> <i class="fa fa-map-marker" aria-hidden="true"></i> Address: {{ selectedUser.address.street }} </h4>
+    <h4> <i class="fa fa-bath" aria-hidden="true"></i> Suite: {{ selectedUser.address.suite  }} </h4>
+    <h4> <i class="fa fa-street-view" aria-hidden="true"></i> City: {{ selectedUser.address.city  }} </h4>
+    <h4> <i class="fa fa-hashtag" aria-hidden="true"></i> Zipcode: {{ selectedUser.address.zipcode }} </h4>
+    <h4> <i class="fa fa-globe" aria-hidden="true"></i> Geolocation: ({{ selectedUser.address.geo.lat }}, {{ selectedUser.address.geo.lng }}) </h4>
+  </div>
+
+  <div class="col-xs-12 col-lg-4 user-info-group">
+    <h4> <i class="fa fa-briefcase" aria-hidden="true"></i> Company: {{ selectedUser.company.name }} </h4>
+    <h4> <i class="fa fa-bolt" aria-hidden="true"></i> Catch Phrase: {{ selectedUser.company.catchPhrase  }} </h4>
+    <h4> <i class="fa fa-money" aria-hidden="true"></i> BS: {{ selectedUser.company.bs  }} </h4>
+  </div>
+</div>

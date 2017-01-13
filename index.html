@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>User Information System - angular.js Case of Study</title>
+
+  <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap-theme.min.css" />
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" />
+  <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css" />
+
+  <link rel="stylesheet" href="css/custom.css" />
+
+</head>
+
+<body ng-app="myApp">
+  <!-- STATIC CONTENT -->
+  <header>
+    <div class="container header-content text-center">
+      <div>
+        <h1 id="UIS-logo">UIS</h1>
+        <h1>Welcome to <span class="resalted-header">User Information System</span></h1>
+        <h3>A service available 24 - 7 for you to check any user information</h3>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- DINAMIC CONTENT -->
+  <div ng-view class="container personal-view">
+  </div>
+
+
+  <!-- STATIC CONTENT -->
+  <footer>
+    <div class="container">
+      <div class="footer-container">
+        <p>Project created by Alan Espinet, Florida Vocational Institute. See more work here: <a href="https://github.com/alanespinet/" class="git-link"><i class="fa fa-github git-alan" aria-hidden="true"></i></a></p>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- ANGULAR JS VENDOR -->
+  <script src="vendor/angular/angular.min.js" charset="utf-8"></script>
+  <script src="vendor/angular/angular-route.min.js" charset="utf-8"></script>
+
+  <!-- JQUERY VENDOR -->
+  <script src="vendor/jquery/jquery.min.js" charset="utf-8"></script>
+
+  <!-- BOOTSTRAP VENDOR -->
+  <script src="vendor/bootstrap/js/bootstrap.min.js" charset="utf-8"></script>
+
+  <!-- OWN SCRIPTS -->
+  <script src="appModule.js" charset="utf-8"></script>
+  <script src="listeduser/listeduser.js" charset="utf-8"></script>
+  <script src="listpage/listController.js" charset="utf-8"></script>
+  <script src="listpage/list.js" charset="utf-8"></script>
+  <script src="user/userController.js" charset="utf-8"></script>
+  <script src="config.js" charset="utf-8"></script>
+
+</body>
+
+</html>

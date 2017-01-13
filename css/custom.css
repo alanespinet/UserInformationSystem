@@ -1,0 +1,116 @@
+
+html {
+  /* for reseting rem unit */
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+h1 {
+  padding-bottom: 2rem;
+}
+
+header,
+footer {
+    background-color: tomato;
+}
+
+header {
+  height: 50vh;
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+.header-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header-content {
+  height: 100%;
+}
+
+#UIS-logo {
+  font-size: 7rem;
+  color: #fff;
+  text-shadow: 0 0 10px gray;
+}
+
+.personal-view {
+  padding-bottom: 4rem;
+}
+
+.user-wrapper {
+  padding-top: 1rem;
+}
+
+listed-user {
+  display: flex;
+  font-size: 1rem;
+}
+
+listed-user a {
+  margin-right: 2rem;
+}
+
+listed-user a:link,
+listed-user a:visited,
+listed-user a:hover,
+listed-user a:active {
+  text-decoration: none;
+  color: darkcyan;
+}
+
+.user-info {
+  min-height: 60vh;
+}
+
+.list-header,
+.user-info {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.resalted-header {
+  font-weight: bold;
+}
+
+h2 {
+  padding-bottom: 4rem;
+}
+
+h4 {
+  padding-bottom: .5rem;
+}
+
+i {
+  margin-right: 0.6rem;
+}
+
+.user-info-group {
+  padding-bottom: 2rem;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer-container p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.4rem;
+  padding-top: .5rem;
+}
+
+.git-alan {
+  padding-left: 1rem;
+  font-size: 1.6rem;
+}
+
+.git-link {
+  color: black;
+}
